@@ -47,3 +47,44 @@
     margin-right: 10px;
     margin-top: 32px;
 }
+
+/* First-main-section styles */
+
+.failure-section {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.failure-section img {
+    border-radius: 100px;
+    width: 569px;
+    height: 723.3px;
+    margin: 150px 0 200px 300px;
+}
+
+.failure-title {
+    width: 400px;
+    height: 416px;
+}
+
+.failure-title h3 {
+    color: #005FAC;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.failure-description {
+    color: #444343;
+    margin: 30px 30px 30px 0;
+}
+
+.failure-list li:before {
+    content: '✓';
+}
+
+.failure-list li {
+    text-decoration: none;
+    padding: 10px;
+}
