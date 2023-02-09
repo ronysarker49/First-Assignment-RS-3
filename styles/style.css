@@ -141,13 +141,13 @@
 .skills-container {
     display: flex;
     gap: 30px;
-    margin-left: 380px;
-    margin-top: 60px;
+    justify-content: center;
+
 }
 
 .skills-container .skill {
     background-color: rgb(49, 153, 245);
-    box-shadow: 7px 0px 15px gray;
+    box-shadow: 7px 0px 17px rgb(158, 157, 157);
     border-radius: 10px;
     padding: 30px;
     width: 200px;
@@ -182,7 +182,7 @@
 
 .plan-container {
     display: flex;
-    gap: 100px;
+    gap: 80px;
     justify-content: center;
     text-align: center;
 }
@@ -198,4 +198,31 @@
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+
+/* positive mindset section styles */
+.mindset-title {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    background-image: url(../images/p-mindset.jpg);
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    margin-left: 380px;
+    width: 1140px;
+    height: 300px;
+    padding-top: 35px;
+    padding-left: 30px;
+}
+
+.mindset-title button {
+    background-color: #ffffff;
+    color: #005FAC;
+    border: none;
+    padding: 21px 25px;
+    font-size: 25px;
+    font-weight: 900px;
+    border-radius: 7px;
+    text-align: right;
+    margin-top: 15px;
 }
