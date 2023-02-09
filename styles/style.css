@@ -142,11 +142,11 @@
     display: flex;
     gap: 30px;
     margin-left: 380px;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .skills-container .skill {
-    background-color: rgb(23, 137, 236);
+    background-color: rgb(49, 153, 245);
     box-shadow: 7px 0px 15px gray;
     border-radius: 10px;
     padding: 30px;
@@ -166,4 +166,36 @@
 .skill-description {
     color: #ffffff;
     padding-top: 15px;
+}
+
+/* My plan section styles */
+
+.plan-titles {
+    color: #005FAC;
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.plan-container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.plan-sub-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
