@@ -36,8 +36,9 @@
 }
 
 .header-btn {
-    background-color: #6acae2;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #005FAC;
+    ;
     border: none;
     padding: 21px 25px;
     font-size: 25px;
@@ -58,10 +59,10 @@
 }
 
 .failure-section img {
-    border-radius: 100px;
+
     width: 569px;
     height: 723.3px;
-    margin: 150px 0 200px 300px;
+    margin: 50px 0 80px 300px;
 }
 
 .failure-title {
@@ -86,5 +87,42 @@
 
 .failure-list li {
     text-decoration: none;
+    padding: 10px;
+}
+
+/* Second-main-section styles */
+
+.success-section {
+    display: flex;
+    gap: 170px;
+    align-items: center;
+}
+
+.success-section img {
+    width: 569px;
+    height: 450.3px;
+    margin: 50px 300px 80px 0;
+}
+
+.success-title {
+    width: 400px;
+    height: 416px;
+    margin-left: 350px;
+}
+
+.success-title h3 {
+    color: #005FAC;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.success-description {
+    color: #444343;
+    margin: 20px 0 20px 0;
+}
+
+.success-list li {
+    color: #444343;
     padding: 10px;
 }
