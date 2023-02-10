@@ -202,17 +202,17 @@
 
 /* positive mindset section styles */
 .mindset-title {
+    background-image: linear-gradient(90deg, #e42f2f 0%, rgba(0, 95, 172, 0) 100%), url(../images/p-mindset.jpg);
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 250px;
     color: white;
     font-weight: 700;
     font-size: 40px;
-    background-image: url(../images/p-mindset.jpg);
-    background-repeat: no-repeat;
     margin-top: 130px;
-    margin-left: 380px;
-    width: 1140px;
-    height: 300px;
     padding-top: 35px;
     padding-left: 30px;
+    margin-left: 380px;
 }
 
 .mindset-title button {
@@ -224,5 +224,84 @@
     font-weight: 900px;
     border-radius: 7px;
     text-align: right;
-    margin-top: 15px;
+    margin-right: 10px;
+    margin-top: 32px;
+}
+
+/* Footer Section style */
+.all-footer-title {
+    display: flex;
+    background-color: #457de6;
+    width: cover;
+    height: 505px;
+    margin-top: 130px;
+    gap: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-weight: 700px;
+    font-size: 45px;
+    color: #F8F8F8;
+    padding-top: 130px;
+}
+
+.footer-description {
+    width: 400px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    color: #F8F8F8;
+}
+
+.mail,
+.phone {
+    color: #F8F8F8;
+    padding-bottom: 20px;
+}
+
+.right-title {
+    margin-left: 200px;
+}
+
+.left-title {
+    margin-right: 200px;
+}
+
+.subscrib {
+    font-weight: 600;
+    font-size: 25px;
+    color: #F8F8F8;
+    margin-bottom: 30px;
+}
+
+.f-button {
+    background-color: #ffffff;
+    color: #005FAC;
+    border: none;
+    padding: 21px 25px;
+    font-size: 25px;
+    font-weight: 900px;
+    border-radius: 7px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 32px;
+}
+
+input {
+    background-color: #005FAC;
+    color: #ffffff;
+    padding: 15px;
+    border-color: #ffffff;
+    border-radius: 8px;
+    width: 300px;
+    text-decoration: none;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+.icons {
+    align-items: center;
 }
