@@ -202,7 +202,7 @@
 
 /* positive mindset section styles */
 .mindset-title {
-    background-image: linear-gradient(90deg, #e42f2f 0%, rgba(0, 95, 172, 0) 100%), url(../images/p-mindset.jpg);
+    background-image: linear-gradient(90deg, rgba(255, 72, 0, 0.747) 0%, rgba(0, 95, 172, 0) 100%), url(../images/p-mindset.jpg);
     background-repeat: no-repeat;
     width: 1140px;
     height: 250px;
